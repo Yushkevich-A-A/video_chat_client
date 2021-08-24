@@ -1,0 +1,54 @@
+
+.login-popup_wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .login-popup {
+    margin-top: 50px;
+  }
+  
+  .login-popup-form {
+    position: relative;
+  }
+  
+  .login-popup-form__label {
+    margin-bottom: 10px;
+  }
+  
+  .login-popup-form__input {
+    margin-bottom: 15px;
+  }
+  
+  .login-popup-form__input_error {
+    border-color: red;
+  }
+  
+  .login-form-submit {
+    text-align: right;
+  }
+  
+  .login-popup-form__button_hover-green:hover {
+    background-color: #1f991f;
+    color: white;
+  }
+  
+  .login-error {
+    position: absolute;
+  }
+  
+  .login-error__p {
+    font-size: 14px;
+    color: red;
+  }
+
+  .login-popup_wrapper-disable,
+  .login-error-disable {
+    display: none;
+  }
