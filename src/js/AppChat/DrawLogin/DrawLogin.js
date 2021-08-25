@@ -1,15 +1,11 @@
 export default class DrawLogin {
     constructor() {
-        this.init();
-    }
-    
-    init() {
         this.drawLoginPopup();
     }
 
     drawLoginPopup() {
         this.loginPopup = document.createElement('div');
-        this.loginPopup.classList.add('login-popup_wrapper', 'login-popup_wrapper-disable');
+        this.loginPopup.classList.add('login-popup_wrapper');
         this.loginPopup.innerHTML = `<div class="login-popup">
             <form class="login-popup-form">
                 <div>

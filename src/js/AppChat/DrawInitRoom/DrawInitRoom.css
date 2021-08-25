@@ -1,0 +1,52 @@
+.create-room-popup_wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.create-room-popup {
+  margin-top: 50px;
+}
+
+.create-room-popup-form {
+  position: relative;
+}
+
+.create-room-popup-form__label {
+  margin-bottom: 10px;
+}
+
+.create-room-popup-form__input {
+  margin-bottom: 15px;
+}
+
+.create-room-popup-form__input_error {
+  border-color: red;
+}
+
+.create-room-form-submit {
+  text-align: right;
+}
+
+.create-room-popup-form__button_hover-green:hover {
+  background-color: rgb(31, 153, 31);
+  color: white;
+}
+
+.create-room-error {
+  position: absolute;
+}
+
+.create-room-error__p {
+  font-size: 14px;
+  color: red;
+}
+
+.create-room-popup_wrapper-disable {
+  display: none;
+}

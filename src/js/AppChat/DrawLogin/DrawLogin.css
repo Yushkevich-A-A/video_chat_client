@@ -48,7 +48,6 @@
     color: red;
   }
 
-  .login-popup_wrapper-disable,
-  .login-error-disable {
+  .login-popup_wrapper-disable {
     display: none;
   }
